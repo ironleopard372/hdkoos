@@ -118,3 +118,4 @@ static void __exit opchain_exit_module(void)
 }
 
 module_exit(opchain_exit_module);
+MODULE_LICENSE("GPL");
