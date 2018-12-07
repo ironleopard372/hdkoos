@@ -41,7 +41,7 @@
 	zm=$k/build/system/lib/modules
 
 # Destination path for compiled Image.gz-dtb
-	zi=$k/build/kernel/Image.gz-dtb
+	zi=$k/build/Image.gz-dtb
 	
 # Source path for building kernel zip
 	zp=$k/build/
@@ -51,7 +51,7 @@
 
 # Kernel zip Name
 ##############################
-	kn=HDK_OP3_AK2_OMNI_V0.3.2.zip
+	kn=HDK_OP6_AK2_OOS_V0.1.zip
 
 ############################################################
 # Cleanup
