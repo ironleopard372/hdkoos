@@ -154,7 +154,7 @@ struct scan_control {
 /*
  * From 0 .. 100.  Higher means more swappy.
  */
-int vm_swappiness = 60;
+int vm_swappiness = 0;
 extern atomic_t alloc_ongoing;
 /*
  * time for kswapd to breath between each scanning loop
