@@ -39,6 +39,7 @@ Module.symvers
 *.dwo
 *.su
 *.c.[012]*.*
+build/kernel/Image.gz-dtb
 
 #
 # Top-level generic files
@@ -112,9 +113,11 @@ x509.genkey
 
 # Kconfig presets
 all.config
-
+upload/
 # Kdevelop4
 *.kdev4
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+build/Changelog\.txt
+out
