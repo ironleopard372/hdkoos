@@ -1,7 +1,7 @@
 VERSION = 4
 PATCHLEVEL = 9
 SUBLEVEL = 145
-EXTRAVERSION = -HolyDragon-v0.4
+EXTRAVERSION = -HolyDragon-v0.5
 NAME = Roaring Lionus
 
 # *DOCUMENTATION*
