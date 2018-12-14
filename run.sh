@@ -27,13 +27,13 @@
 	dc=HD_defconfig
 
 # Source Path to kernel tree
-	k=/home/holyangel/android/Kernels/op6
+	k=/home/holyangel/android/Kernels/sdm845
 
 # Source Path to clean(empty) out folder
 	co=$k/out
 
 # Compile Path to out 
-	o="O=/home/holyangel/android/Kernels/op6/out"
+	o="O=/home/holyangel/android/Kernels/sdm845/out"
 
 ############################################################
 # Cleanup
