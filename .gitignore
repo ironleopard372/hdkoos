@@ -121,3 +121,5 @@ kernel/configs/android-*.cfg
 build/Changelog\.txt
 out
 build/Image\.gz-dtb
+
+upload/
