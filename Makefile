@@ -313,7 +313,7 @@ CONFIG_SHELL := $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
 # fall back to -march=armv8-a in case the compiler isn't compatible
 # with -mcpu and -mtune
 ARM_ARCH_OPT := \
-	$(call cc-option,-march=armv8.2-a+crypto+aes+sha2+sha3+sm4,) \
+	$(call cc-option,-march=armv8.2-a+crypto+fp16+aes+sha2+sha3+sm4,) \
 	-mtune=cortex-a75.cortex-a55 -mcpu=cortex-a75.cortex-a55+crypto+aes+sha2+sha3+sm4 \
 	--param l1-cache-line-size=64 --param l1-cache-size=64 --param l2-cache-size=256 
 
