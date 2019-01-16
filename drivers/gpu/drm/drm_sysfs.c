@@ -280,16 +280,7 @@ static ssize_t hbm_show(struct device *dev,
 
 	hbm_mode = dsi_display_get_hbm_mode(connector);
 
-	ret = scnprintf(buf, PAGE_SIZE, "hbm mode = %d\n"
-											"0--hbm mode(off)\n"
-											"1--hbm mode(464)\n"
-											"2--hbm mode(498)\n"
-											"3--hbm mode(532)\n"
-											"4--hbm mode(566)\n"
-											"5--hbm mode(600)\n"
-											"7--hbm max mode(600)\n"
-											"8--hbm max off \n",
-											hbm_mode);
+	ret = scnprintf(buf, PAGE_SIZE, "%d\n", hbm_mode);
 	return ret;
 }
 
