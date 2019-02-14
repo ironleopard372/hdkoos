@@ -4932,10 +4932,10 @@ static int sde_crtc_onscreenfinger_atomic_check(struct sde_crtc_state *cstate,
 	}
 	if(fp_index >=0)
 		display->panel->dim_status = true;
-	else
+		else
 		display->panel->dim_status = false;
 
-		if (fp_mode == 1 && sde_crtc_config_fingerprint_dim_layer(&cstate->base, 5)) {
+	if (fp_mode == 1 && sde_crtc_config_fingerprint_dim_layer(&cstate->base, 5)) {
 			pr_err("Failed to config dim layer\n");
 			return -EINVAL;
 		}
