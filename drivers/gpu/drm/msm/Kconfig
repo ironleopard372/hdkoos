@@ -1,4 +1,3 @@
-
 config DRM_MSM
 	tristate "MSM DRM"
 	depends on DRM
