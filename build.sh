@@ -26,13 +26,13 @@
 	dc=HD_defconfig
 
 # Source Path to kernel tree
-	k=/home/holyangel/android/Kernels/sdm845
+	k=/home/holyangel/android/Kernels/sdm845op
 
 # Source Path to clean(empty) out folder
 	co=$k/out
 
 # Compile Path to out 
-	o="O=/home/holyangel/android/Kernels/sdm845/out"
+	o="O=/home/holyangel/android/Kernels/sdm845op/out"
 
 # Source Path to compiled Image.gz-dtb
 	i=$k/out/arch/arm64/boot/Image.gz-dtb
